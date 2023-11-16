@@ -36,9 +36,16 @@ We accept three kinds of papers:
 ## Organization
 
 ### Workshop Chairs
+- Sven Groppe
+- Wolfgang Mauerer
+- Ibrahim Sabek
+- Immanuel Trummer
 
 ### Workshop Publicity Chair
+- Manuel Schönberger
 
 ### Steering Committee
+- Jiaheng Lu
+- Le Gruenwald
 
 ### Program Committee
