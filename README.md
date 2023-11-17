@@ -36,6 +36,13 @@ We accept three kinds of papers:
 - Short papers with a length of up to 6 pages (excluding references)
 - Abstracts with a length of one single page (including references)
 
+Abstracts describe ideas and projects at very early stages. For long and short papers, we consider the following categories:
+- Algorithms: The primary contribution lies in algorithms that allow solving problems that are relevant to the database community on quantum computers or quantum-inspired accelerators. Long papers are expected to provide significant experimental or formal analysis results evaluating the proposed algorithm.
+- Systems: The primary contribution lies in proposing new architectures or frameworks that use quantum computing or quantum-inspired accelerators to address problems in data processing and management. Long papers are expected to evaluate the implementation of the proposed system thoroughly.
+- Experiments: The primary contribution lies in experimental analysis, quantifying properties of existing or novel algorithms that are at least partially executed on quantum computers or quantum-inspired accelerators (or use corresponding simulators). Long papers are expected to provide a more detailed experimental analysis.
+
+Accepted papers and abstracts in any of the aforementioned categories will receive a presentation slot at the workshop (five minutes for abstracts, 15 minutes for short papers, and 25 minutes for long papers).
+
 ## Organization
 
 ### Workshop Chairs
