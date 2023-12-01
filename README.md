@@ -46,10 +46,9 @@ Accepted papers and abstracts in any of the aforementioned categories will recei
 ## Organization
 
 ### Workshop Chairs
-- Sven Groppe
-- Wolfgang Mauerer
 - Ibrahim Sabek
 - Immanuel Trummer
+- Stefan Prestel
 
 ### Workshop Publicity Chair
 - Manuel Schönberger
@@ -57,6 +56,9 @@ Accepted papers and abstracts in any of the aforementioned categories will recei
 ### Steering Committee
 - Jiaheng Lu
 - Le Gruenwald
+- Sven Groppe
+- Wolfgang Mauerer
+
 
 ### Program Committee
 - Umut Çalikyilmaz, University of Lübeck, Germany
