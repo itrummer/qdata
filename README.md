@@ -27,7 +27,7 @@ All deadlines are 11:59 PM Pacific Time:
 - Submissions: March 30, 2024
 - Notifications: April 30, 2024
 - Camera-Ready: June 1, 2024
-- Workshop Date: TBD
+- Workshop Date: June 9, 2024
 
 ## Submission Instructions
 
@@ -59,6 +59,9 @@ Accepted papers and abstracts in any of the aforementioned categories will recei
 - Sven Groppe
 - Wolfgang Mauerer
 
+
+## Program Schedule
+TBD
 
 ### Program Committee
 TBD
