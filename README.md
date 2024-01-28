@@ -59,9 +59,10 @@ Accepted papers and abstracts in any of the aforementioned categories will recei
 - Sven Groppe
 - Wolfgang Mauerer
 
+### Program Committee
+TBD
 
 ## Program Schedule
 TBD
 
-### Program Committee
-TBD
+
