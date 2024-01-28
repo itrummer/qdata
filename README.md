@@ -1,6 +1,6 @@
 # Q-Data
 
-Q-Data is a one-day workshop, collocated with SIGMOD, that explores the potential of quantum computing and quantum-inspired hardware accelerators for data processing and data management.
+Q-Data is a half-day workshop, collocated with SIGMOD 2024, that explores the potential of quantum computing and quantum-inspired hardware accelerators for data processing and data management.
 
 ## Motivation
 
@@ -27,7 +27,7 @@ All deadlines are 11:59 PM Pacific Time:
 - Submissions: March 30, 2024
 - Notifications: April 30, 2024
 - Camera-Ready: June 1, 2024
-- Workshop Date: June 9, 2024
+- Workshop Date: TBD
 
 ## Submission Instructions
 
@@ -61,10 +61,4 @@ Accepted papers and abstracts in any of the aforementioned categories will recei
 
 
 ### Program Committee
-- Umut Çalikyilmaz, University of Lübeck, Germany
-- Maja Franz, Technical University of Applied Sciences Regensburg, Germany
-- Gokul Ravi, University of Michigan, USA
-- Manuel Schönberger, Technical University of Applied Sciences Regensburg, Germany
-- Valter Uotila, University of Helsinki, Finland
-- Gongsheng Yuan, Zhejiang University, China
-- Zhengtong Yan, University of Helsinki, Finland
+TBD
