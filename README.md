@@ -8,11 +8,14 @@ Whereas quantum computing started out as a purely theoretical concept, the last 
 
 Using quantum computing and related technologies has become conveniently possible with standard IT interfaces. Several software frameworks have recently appeared that make solving a diverse range of problems using quantum computers easier. At the same time, multiple cloud providers nowadays offer quantum computing as a service, making the technology accessible to broad shares of the population. Taken together, these developments have recently spawned a flurry of research in various communities, ranging from operations research to machine learning, and aimed at analyzing the transformative potential of quantum computing for specific use cases. 
 
+The primary objective of the Q-Data workshop is to explore how quantum computing and related technologies can enhance data processing, management, ana analysis systems and techniques. It also focuses on the hybrid approaches that integrate both quantum and classical computing methodologies to enhance such data systems and techniques. This workshop will spur new research efforts in this emerging field and pave the way for building next-generation data-intensive systems with quantum computing support.
+
 ## Topics of Interest
 
 Topics of interest for the workshop include (but are not limited to):
 - Enhancing database system components (e.g., query optimizer, query scheduler, transaction scheduler, authentication and integrity manager) with quantum computing and quantum-inspired accelerators
 - Data processing systems that integrate quantum-based and quantum-inspired accelerators
+- Data processing systems that integrate both quantum and classical computing approaches
 - Quantum machine learning for autonomous database management, database tuning, workload management, and learned indexes
 - Approaches for data exploration, discovery, and integration based on quantum computing and quantum-inspired hardware accelerators
 - Formal analysis and experimental evaluations assessing the potential of quantum computing for specific use cases in data processing and data management
@@ -36,28 +39,30 @@ We accept three kinds of papers:
 - Short papers with a length of up to 6 pages (excluding references)
 - Abstracts with a length of one single page (including references)
 
-Abstracts describe ideas and projects at very early stages. For long and short papers, we consider the following categories:
+For long and short papers, we consider the following categories:
 - Algorithms: The primary contribution lies in algorithms that allow solving problems that are relevant to the database community on quantum computers or quantum-inspired accelerators. Long papers are expected to provide significant experimental or formal analysis results evaluating the proposed algorithm.
 - Systems: The primary contribution lies in proposing new architectures or frameworks that use quantum computing or quantum-inspired accelerators to address problems in data processing and management. Long papers are expected to evaluate the implementation of the proposed system thoroughly.
 - Experiments: The primary contribution lies in experimental analysis, quantifying properties of existing or novel algorithms that are at least partially executed on quantum computers or quantum-inspired accelerators (or use corresponding simulators). Long papers are expected to provide a more detailed experimental analysis.
 
-Accepted papers and abstracts in any of the aforementioned categories will receive a presentation slot at the workshop (five minutes for abstracts, 15 minutes for short papers, and 25 minutes for long papers).
+For abstracts, each abstract submission is expected to have a single author and should describe ideas and projects at very early stages.
+
+Accepted papers and abstracts will be included in the proceedings and will receive a presentation slot at the workshop (five minutes for abstracts, 15 minutes for short papers, and 25 minutes for long papers).
 
 ## Organization
 
 ### Workshop Chairs
-- Ibrahim Sabek
-- Immanuel Trummer
-- Stefan Prestel
+- [Ibrahim Sabek](http://viterbi-web.usc.edu/~sabek) (University of Southern California, USA)
+- [Immanuel Trummer](https://itrummer.github.io/) (Cornell University, USA)
+- [Stefan Prestel](https://www.linkedin.com/in/stefan-prestel/) (Quantum Brilliance, Germany)
 
 ### Workshop Publicity Chair
-- Manuel Schönberger
+- [Manuel Schönberger](https://www.lfdr.de/People/schoenberger/) (Technical University of Applied Sciences Regensburg, Germany)
 
 ### Steering Committee
-- Jiaheng Lu
-- Le Gruenwald
-- Sven Groppe
-- Wolfgang Mauerer
+- [Jiaheng Lu](https://www.cs.helsinki.fi/u/jilu/) (University of Helsinki, Finland)
+- [Le Gruenwald](https://cs.ou.edu/~database/) (University of Oklahoma, USA)
+- [Sven Groppe](http://www.ifis.uni-luebeck.de/~groppe) (University of Lübeck, Germany)
+- [Wolfgang Mauerer](https://lfdr.de/) (Technical University of Applied Sciences Regensburg, Germany)
 
 ### Program Committee
 TBD
