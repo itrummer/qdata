@@ -46,7 +46,7 @@ For long and short papers, we consider the following categories:
 
 For abstracts, each abstract submission is expected to have a single author and should describe ideas and projects at very early stages.
 
-Accepted papers and abstracts will be included in the proceedings and will receive a presentation slot at the workshop (five minutes for abstracts, 15 minutes for short papers, and 25 minutes for long papers).
+Accepted papers and abstracts will be included in the proceedings and receive a presentation slot at the workshop (five minutes for abstracts, 15 minutes for short papers, and 25 minutes for long papers).
 
 ## Organization
 
