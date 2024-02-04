@@ -48,7 +48,7 @@ For abstracts, each abstract submission is expected to have a single author and 
 
 Accepted papers and abstracts will be included in the proceedings and receive presentation slots at the workshop (5 minutes for abstracts, 15 minutes for short papers, and 25 minutes for long papers).
 
-Submission link: https://easychair.org/conferences/?conf=qdata2024
+Submission link: [https://easychair.org/conferences/?conf=qdata2024](https://easychair.org/conferences/?conf=qdata2024)
 
 ## Organization
 
