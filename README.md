@@ -34,7 +34,7 @@ All deadlines are 11:59 PM Pacific Time:
 
 ## Submission Instructions
 
-We accept three kinds of papers:
+The workshop will follow the SIGMOD submission guidelines [here](https://www.acm.org/publications/proceedings-template), and the ACM publications’ conflict of interest policy indicated [here](https://www.acm.org/publications/policies/conflict-of-interest). To avoid conflicts of interest, we will impose a **triple-blind** submission and review policy. In addition to the traditional double-blind submission that hides the authors’ and referees’ names from each other, the triple-blind reviewing goes further and hides the referee names among referees during paper discussions before their acceptance decisions. Submissions will be through EasyChair: [https://easychair.org/conferences/?conf=qdata2024](https://easychair.org/conferences/?conf=qdata2024). We accept three kinds of papers:
 - Full papers with a length of up to 12 pages (excluding references)
 - Short papers with a length of up to 6 pages (excluding references)
 - Abstracts with a length of one single page (including references)
@@ -48,7 +48,6 @@ For abstracts, each abstract submission is expected to have a single author and 
 
 Accepted papers and abstracts will be included in the proceedings and receive presentation slots at the workshop (5 minutes for abstracts, 15 minutes for short papers, and 25 minutes for long papers).
 
-Submission link: [https://easychair.org/conferences/?conf=qdata2024](https://easychair.org/conferences/?conf=qdata2024)
 
 ## Organization
 
