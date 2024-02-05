@@ -34,7 +34,7 @@ All deadlines are 11:59 PM Pacific Time:
 
 ## Submission Instructions
 
-Submissions must be formatted according to [ACM Primary Article Template](https://www.acm.org/publications/proceedings-template) and submitted [here](https://easychair.org/conferences/?conf=qdata2024). Authors are responsible for entering all conflicts of interest according to the [Conflict of Interest Policy for ACM Publications](https://www.acm.org/publications/policies/conflict-of-interest) before the submission deadline. We will impose a **triple-blind** submission and review policy. In addition to the traditional double-blind submission that hides the authors’ and referees’ names from each other, the triple-blind reviewing goes further and hides the referee names among referees during paper discussions before their acceptance decisions. 
+Submissions must be formatted according to the [ACM Primary Article Template](https://www.acm.org/publications/proceedings-template) and submitted [here](https://easychair.org/conferences/?conf=qdata2024). Authors are responsible for entering all conflicts of interest according to the [Conflict of Interest Policy for ACM Publications](https://www.acm.org/publications/policies/conflict-of-interest) before the submission deadline. We will impose a **triple-blind** submission and review policy. In addition to the traditional double-blind submission that hides the authors’ and referees’ names from each other, the triple-blind reviewing goes further and hides the referee names among referees during paper discussions before their acceptance decisions. 
 
 We accept three kinds of papers:
 - Full papers with a length of up to 12 pages (excluding references)
