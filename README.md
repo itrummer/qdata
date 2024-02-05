@@ -8,12 +8,12 @@ Whereas quantum computing started out as a purely theoretical concept, the last 
 
 Using quantum computing and related technologies has become conveniently possible with standard IT interfaces. Several software frameworks have recently appeared that make solving a diverse range of problems using quantum computers easier. At the same time, multiple cloud providers nowadays offer quantum computing as a service, making the technology accessible to broad shares of the population. Taken together, these developments have recently spawned a flurry of research in various communities, ranging from operations research to machine learning, and aimed at analyzing the transformative potential of quantum computing for specific use cases. 
 
-The primary objective of the Q-Data workshop is to explore how quantum computing and related technologies can enhance data processing, management, ana analysis systems and techniques. It also focuses on the hybrid approaches that integrate both quantum and classical computing methodologies to enhance such data systems and techniques. This workshop will spur new research efforts in this emerging field and pave the way for building next-generation data-intensive systems with quantum computing support.
+The primary objective of the Q-Data workshop is to explore how quantum computing and related technologies can enhance data processing, data management, data analysis systems, and techniques. It also focuses on hybrid approaches that integrate both quantum and classical computing methodologies to enhance such data systems and techniques. This workshop will spur new research efforts in this emerging field and pave the way for building next-generation data-intensive systems with quantum computing support.
 
 ## Topics of Interest
 
 Topics of interest for the workshop include (but are not limited to):
-- Enhancing database system components (e.g., query optimizer, query scheduler, transaction scheduler, authentication and integrity manager) with quantum computing and quantum-inspired accelerators
+- Enhancing database system components (e.g., query optimizer, query scheduler, transaction scheduler, authentication, and integrity manager) with quantum computing and quantum-inspired accelerators
 - Data processing systems that integrate quantum-based and quantum-inspired accelerators
 - Data processing systems that integrate both quantum and classical computing approaches
 - Quantum machine learning for autonomous database management, database tuning, workload management, and learned indexes
