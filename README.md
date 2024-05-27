@@ -85,14 +85,14 @@ Accepted papers and abstracts will be included in the proceedings and receive pr
 
 | Time | Program |
 | --- | --- |
-| 8:30 - 8:40 | Introduction |
-| 8:40 - 9:40 | Keynote by Davide Venturelli
-| 9:40 - 10:00 | Constrained Quadratic Model for Optimizing Join Orders. _Pranshi Saxena, Ibrahim Sabek and Federico Spedalieri_.
-| 10:00 - 10:30 | Coffee Break
-| 10:30 - 10:55 | Quantum Data Encoding Patterns and their Consequences. _Martin Gogeissl, Hila Safi and Wolfgang Mauerer_.
-| 10:55 - 11:20  | Leveraging Quantum Computing for Database Index Selection. _Immanuel Trummer and Davide Venturelli_.
-| 11:20 - 11:45 | QardEst: Using Quantum Machine Learning for Cardinality Estimation of Join Queries. _Florian Kittelmann, Pavel Sulimov and Kurt Stockinger_.
-| 11:45 - 11:50 | Towards Out-of-Core Simulators for Quantum Computing. _Immanuel Trummer_.
-| 11:50 - Noon | Conclusions 
+| 8:30-8:40 | Introduction |
+| 8:40-9:40 | Keynote by Davide Venturelli
+| 9:40-10:00 | Constrained Quadratic Model for Optimizing Join Orders. _Pranshi Saxena, Ibrahim Sabek and Federico Spedalieri_.
+| 10:00-10:30 | Coffee Break
+| 10:30-10:55 | Quantum Data Encoding Patterns and their Consequences. _Martin Gogeissl, Hila Safi and Wolfgang Mauerer_.
+| 10:55-11:20  | Leveraging Quantum Computing for Database Index Selection. _Immanuel Trummer and Davide Venturelli_.
+| 11:20-11:45 | QardEst: Using Quantum Machine Learning for Cardinality Estimation of Join Queries. _Florian Kittelmann, Pavel Sulimov and Kurt Stockinger_.
+| 11:45-11:50 | Towards Out-of-Core Simulators for Quantum Computing. _Immanuel Trummer_.
+| 11:50-Noon | Conclusions 
 
 
