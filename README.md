@@ -86,7 +86,7 @@ Accepted papers and abstracts will be included in the proceedings and receive pr
 | Time Slot | Program |
 | --- | --- |
 | 8:30-8:40 | Introduction |
-| 8:40-9:40 | Keynote by Davide Venturelli
+| 8:40-9:40 | Keynote "Advances in Quantum Optimization Circuits" by Davide Venturelli.
 | 9:40-10:00 | Constrained Quadratic Model for Optimizing Join Orders. _Pranshi Saxena, Ibrahim Sabek and Federico Spedalieri_.
 | 10:00-10:30 | Coffee Break
 | 10:30-10:55 | Quantum Data Encoding Patterns and their Consequences. _Martin Gogeissl, Hila Safi and Wolfgang Mauerer_.
@@ -95,4 +95,12 @@ Accepted papers and abstracts will be included in the proceedings and receive pr
 | 11:45-11:50 | Towards Out-of-Core Simulators for Quantum Computing. _Immanuel Trummer_.
 | 11:50-Noon | Conclusions 
 
+## Keynote "Advances in Quantum Optimization Circuits"
 
+### Abstract
+
+Owing to advancements in hardware quality and control software, several recent demonstrations of experimental runs on gate-model noisy quantum processors have showcased the use of 50+ qubits in regimes where simulations become challenging. In this talk, we will discuss insights gained from NASA, USRA, and Rigetti Computing during a large-scale research program that employed various techniques to combat or exploit noise while aiming to solve fully-connected binary optimization problems. We will delve into the impacts of the discovered techniques, which encompass ansatz approximations, swap-network synthesis, over-parametrization, categorical parameters like ordering and symmetry transformations, and iterative decompositions. We will also explore how these can be amalgamated into a cohesive algorithm-tuning strategy that can be executed on the fly, achieving high approximation ratios within a few thousand runs for generic unconstrained graph problems.
+
+### Speaker
+
+Dr. Davide Venturelli is currently Associate Director for Quantum Technologies at the USRA Research Institute for Advanced Computer Science (RIACS) in California. He has worked since 2012 in the NASA Quantum AI Laboratory (QuAIL) under the NASA Academic Mission Service, invested in research projects dealing with quantum optimization applications and their implementation in a hardware-software co-design approach. He is the Applications group of the National Quantum Initiative Superconducting Quantum Materials and System (SQMS) Center at Fermi National Laboratory. In 2021 he was elected member of the Quantum Economic Development Consortium (QED-C) steering committee, the organism coordinating 100+ companies involved in building the supply chain for the emergent quantum technology industry.
