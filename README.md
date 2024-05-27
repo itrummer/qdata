@@ -83,7 +83,7 @@ Accepted papers and abstracts will be included in the proceedings and receive pr
 
 ## Program Schedule
 
-| Time | Program |
+| Time Slot | Program |
 | --- | --- |
 | 8:30-8:40 | Introduction |
 | 8:40-9:40 | Keynote by Davide Venturelli
