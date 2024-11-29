@@ -1,12 +1,12 @@
-# Q-Data
+# Q-Data 2025
 
-Q-Data is a half-day workshop, collocated with SIGMOD 2024, that explores the potential of quantum computing and quantum-inspired hardware accelerators for data processing and data management.
+The second workshop on Quantum Computing and Quantum-Inspired Technology for Data-Intensive Systems and Applications (Q-Data 2025) is a half-day workshop, collocated with SIGMOD 2025, that explores the potential of quantum computing and quantum-inspired hardware accelerators for data processing and data management.
 
 ## Motivation
 
 Whereas quantum computing started out as a purely theoretical concept, the last few years have seen a "Cambrian explosion" of first-generation commercial quantum hardware culminating from decades of foundational research. Players, including the likes of Google, IBM, and Intel, as well as startup companies like IQM, D-Wave, IonQ, and Rigetti, are now producing hardware devices that implement quantum computing using various technologies. At the same time, the recent advances in quantum computing have inspired a new generation of classical hardware accelerators, offered commercially by providers such as Fujitsu, Toshiba, and 1Qubit, that mirror the interfaces and take inspiration from internal processes of quantum computers. These accelerators, including digital annealers, as well as GPU- and FPGA-based simulators of quantum computation, obtain approximate solutions for extremely large, combinatorial optimization problems quickly.
 
-Using quantum computing and related technologies has become conveniently possible with standard IT interfaces. Several software frameworks have recently appeared that make solving a diverse range of problems using quantum computers easier. At the same time, multiple cloud providers nowadays offer quantum computing as a service, making the technology accessible to broad shares of the population. Taken together, these developments have recently spawned a flurry of research in various communities, ranging from operations research to machine learning, and aimed at analyzing the transformative potential of quantum computing for specific use cases. 
+Using quantum computing and related technologies has become conveniently possible with standard IT interfaces. Several software frameworks have recently appeared that make solving a diverse range of problems using quantum computers easier. At the same time, multiple cloud providers nowadays offer quantum computing as a service, making the technology accessible to broad shares of the population. Taken together, these developments have recently spawned a flurry of research in various communities, ranging from operations research to machine learning, and aimed at analyzing the transformative potential of quantum computing for specific use cases.
 
 The primary objective of the Q-Data workshop is to explore how quantum computing and related technologies can enhance data processing, data management, data analysis systems, and techniques. It also focuses on hybrid approaches that integrate both quantum and classical computing methodologies to enhance such data systems and techniques. This workshop will spur new research efforts in this emerging field and pave the way for building next-generation data-intensive systems with quantum computing support.
 
@@ -27,10 +27,10 @@ Topics of interest for the workshop include (but are not limited to):
 ## Important Dates
 
 All deadlines are 11:59 PM Pacific Time:
-- Submissions: ~~April 15, 2024~~ April 26, 2024
-- Notifications: ~~May 1, 2024~~ May 10, 2024
+- Submissions: April 20, 2024
+- Notifications: May 4, 2024
 - Camera-Ready: June 1, 2024
-- Workshop Date: June 9, 2024
+- Workshop Date: June 22, 2024
 
 ## Submission Instructions
 
@@ -50,16 +50,15 @@ For abstracts, each abstract submission is expected to have a single author and 
 
 Accepted papers and abstracts will be included in the proceedings and receive presentation slots at the workshop (5 minutes for abstracts, 15 minutes for short papers, and 25 minutes for long papers).
 
-
 ## Organization
 
 ### Workshop Chairs
 - [Ibrahim Sabek](http://viterbi-web.usc.edu/~sabek) (University of Southern California, USA)
 - [Immanuel Trummer](https://itrummer.github.io/) (Cornell University, USA)
-- [Stefan Prestel](https://www.linkedin.com/in/stefan-prestel/) (Quantum Brilliance, Germany)
 
 ### Workshop Publicity Chair
-- [Manuel Schönberger](https://www.lfdr.de/People/schoenberger/) (Technical University of Applied Sciences Regensburg, Germany)
+
+TBD
 
 ### Steering Committee
 - [Jiaheng Lu](https://www.cs.helsinki.fi/u/jilu/) (University of Helsinki, Finland)
@@ -68,39 +67,12 @@ Accepted papers and abstracts will be included in the proceedings and receive pr
 - [Wolfgang Mauerer](https://lfdr.de/) (Technical University of Applied Sciences Regensburg, Germany)
 
 ### Program Committee
-- [Christoph Koch](https://people.epfl.ch/christoph.koch) (EPFL, Switzerland)
-- [Gokul Ravi](https://gsravi.engin.umich.edu/) (University of Michigan, USA)
-- [Johanna Barzen](https://www.iaas.uni-stuttgart.de/en/institute/team/Barzen/) (University of Stuttgart, Germany)
-- [Kurt Stockinger](https://www.zhaw.ch/en/about-us/person/stog/) (Zurich University of Applied Sciences, Switzerland)
-- [Manuel Wimmer](https://se.jku.at/manuel-wimmer/) (JKU Linz, Austria)
-- [Markus Zajac](https://www.fernuni-hagen.de/dbis/en/team/markus.zajac.shtml) (Fernuniversität Hagen, Germany)
-- [Manuel Schönberger](https://www.lfdr.de/People/schoenberger/) (Technical University of Applied Sciences Regensburg, Germany) 
-- [Sebastian Feld](https://www.tudelft.nl/en/eemcs/the-faculty/departments/quantum-computer-engineering/sections/quantum-circuits-architectures-and-technology/groups/quantum-machine-learning/staff/sebastian-feld) (TU Delft, Netherlands)
-- [Stuart Hadfield](https://www.cs.columbia.edu/~stuartah/) (Quantum AI Lab at NASA Ames Research Center, USA)	
-- [Umut Çalikyilmaz](https://research.uni-luebeck.de/de/persons/umut-calikyilmaz) (University of Lübeck, Germany)	
-- [Uta Störl](https://www.fernuni-hagen.de/dbis/en/team/uta.stoerl.shtml) (Fernuniversität Hagen, Germany)
-- [Valter Uotila](https://valteruo.github.io/) (University of Helsinki, Finland)
+
+TBD
 
 ## Program Schedule
 
-| Time Slot | Program |
-| --- | --- |
-| 8:30-8:40 | Introduction |
-| 8:40-9:40 | Keynote "Advances in Quantum Optimization Circuits" by Davide Venturelli.
-| 9:40-10:00 | Constrained Quadratic Model for Optimizing Join Orders. _Pranshi Saxena, Ibrahim Sabek and Federico Spedalieri_.
-| 10:00-10:30 | Coffee Break
-| 10:30-10:55 | Quantum Data Encoding Patterns and their Consequences. _Martin Gogeissl, Hila Safi and Wolfgang Mauerer_.
-| 10:55-11:20  | Leveraging Quantum Computing for Database Index Selection. _Immanuel Trummer and Davide Venturelli_.
-| 11:20-11:45 | QardEst: Using Quantum Machine Learning for Cardinality Estimation of Join Queries. _Florian Kittelmann, Pavel Sulimov and Kurt Stockinger_.
-| 11:45-11:50 | Towards Out-of-Core Simulators for Quantum Computing. _Immanuel Trummer_.
-| 11:50-Noon | Conclusions 
+TBD
 
-## Keynote "Advances in Quantum Optimization Circuits"
-
-### Abstract
-
-Owing to advancements in hardware quality and control software, several recent demonstrations of experimental runs on gate-model noisy quantum processors have showcased the use of 50+ qubits in regimes where simulations become challenging. In this talk, we will discuss insights gained from NASA, USRA, and Rigetti Computing during a large-scale research program that employed various techniques to combat or exploit noise while aiming to solve fully-connected binary optimization problems. We will delve into the impacts of the discovered techniques, which encompass ansatz approximations, swap-network synthesis, over-parametrization, categorical parameters like ordering and symmetry transformations, and iterative decompositions. We will also explore how these can be amalgamated into a cohesive algorithm-tuning strategy that can be executed on the fly, achieving high approximation ratios within a few thousand runs for generic unconstrained graph problems.
-
-### Speaker
-
-Dr. Davide Venturelli is currently Associate Director for Quantum Technologies at the USRA Research Institute for Advanced Computer Science (RIACS) in California. He has worked since 2012 in the NASA Quantum AI Laboratory (QuAIL) under the NASA Academic Mission Service, invested in research projects dealing with quantum optimization applications and their implementation in a hardware-software co-design approach. He is the Applications group of the National Quantum Initiative Superconducting Quantum Materials and System (SQMS) Center at Fermi National Laboratory. In 2021 he was elected member of the Quantum Economic Development Consortium (QED-C) steering committee, the organism coordinating 100+ companies involved in building the supply chain for the emergent quantum technology industry.
+## Prior Instances
+- [2024](https://itrummer.github.io/qdata/qdata24.html)
