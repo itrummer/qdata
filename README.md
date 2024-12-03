@@ -27,10 +27,10 @@ Topics of interest for the workshop include (but are not limited to):
 ## Important Dates
 
 All deadlines are 11:59 PM Pacific Time:
-- Submissions: April 20, 2024
-- Notifications: May 4, 2024
-- Camera-Ready: June 1, 2024
-- Workshop Date: June 22, 2024
+- Submissions: April 20, 2025
+- Notifications: May 4, 2025
+- Camera-Ready: June 1, 2025
+- Workshop Date: June 22, 2025
 
 ## Submission Instructions
 
