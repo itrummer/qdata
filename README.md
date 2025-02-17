@@ -56,10 +56,6 @@ Accepted papers and abstracts will be included in the proceedings and receive pr
 - [Ibrahim Sabek](http://viterbi-web.usc.edu/~sabek) (University of Southern California, USA)
 - [Immanuel Trummer](https://itrummer.github.io/) (Cornell University, USA)
 
-### Workshop Publicity Chair
-
-TBD
-
 ### Steering Committee
 - [Jiaheng Lu](https://www.cs.helsinki.fi/u/jilu/) (University of Helsinki, Finland)
 - [Le Gruenwald](https://cs.ou.edu/~database/) (University of Oklahoma, USA)
