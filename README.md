@@ -64,8 +64,13 @@ Accepted papers and abstracts will be included in the proceedings and receive pr
 
 ### Program Committee
 
-TBD
-
+- [Federico Spedalieri](https://www.isi.edu/directory/fspedali/) (ISI at University of Southern California, USA)
+- [Johanna Barzen](https://www.iaas.uni-stuttgart.de/en/institute/team/Barzen/) (University of Stuttgart, Germany)
+- [Manuel Schönberger](https://www.lfdr.de/People/schoenberger/) (Technical University of Applied Sciences Regensburg, Germany)
+- [Sebastian Feld](https://www.tudelft.nl/en/eemcs/the-faculty/departments/quantum-computer-engineering/sections/quantum-circuits-architectures-and-technology/groups/quantum-machine-learning/staff/sebastian-feld) (TU Delft, Netherlands)
+- [Stuart Hadfield](https://www.cs.columbia.edu/~stuartah/) (Quantum AI Lab at NASA Ames Research Center, USA)
+- [Valter Uotila](https://valteruo.github.io/) (University of Helsinki, Finland)
+  
 ## Program Schedule
 
 TBD
