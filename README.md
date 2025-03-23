@@ -75,5 +75,16 @@ Accepted papers and abstracts will be included in the proceedings and receive pr
 
 TBD
 
+## Keynote “D-Wave Quantum Optimization Realized”
+
+### Abstract
+
+Quantum computing promises to accelerate computational power in a variety of application spaces. D-Wave Quantum Inc. has targeted optimization problems with its quantum annealing hardware, hybrid quantum-classical software, and services. In this talk, we will explore the different use cases tackled by D-Wave’s technology, including areas of scheduling, allocation, and querying. An introduction to quantum computing will be provided, as well as an example of how research using quantum optimization has expanded as the technology has improved over the past 10 years.
+
+### Speaker
+
+Dr. Catherine Potts is a technical advisor at D-Wave Quantum Inc., assisting clients in building quantum optimization applications for commercial and research use. She has a PhD in applied mathematics from Montana State University, focused on adapting machine learning algorithms to scientific imaging. Since 2020, she’s been focused on building quantum computing applications for different types of quantum hardware, including D-Wave’s quantum annealing and hybrid technology.  
+
+
 ## Prior Instances
 - [2024](https://itrummer.github.io/qdata/qdata24.html)
