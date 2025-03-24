@@ -68,6 +68,7 @@ Accepted papers and abstracts will be included in the proceedings and receive pr
 - [Johanna Barzen](https://www.iaas.uni-stuttgart.de/en/institute/team/Barzen/) (University of Stuttgart, Germany)
 - [Manuel Schönberger](https://www.lfdr.de/People/schoenberger/) (Technical University of Applied Sciences Regensburg, Germany)
 - [Sebastian Feld](https://www.tudelft.nl/en/eemcs/the-faculty/departments/quantum-computer-engineering/sections/quantum-circuits-architectures-and-technology/groups/quantum-machine-learning/staff/sebastian-feld) (TU Delft, Netherlands)
+- [Shaukat Ali](https://www.simula.no/people/shaukat) (Simula Research Laboratory, Norway)
 - [Stuart Hadfield](https://www.cs.columbia.edu/~stuartah/) (Quantum AI Lab at NASA Ames Research Center, USA)
 - [Valter Uotila](https://valteruo.github.io/) (University of Helsinki, Finland)
   
