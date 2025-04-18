@@ -27,8 +27,8 @@ Topics of interest for the workshop include (but are not limited to):
 ## Important Dates
 
 All deadlines are 11:59 PM Pacific Time:
-- Submissions: April 20, 2025
-- Notifications: May 4, 2025
+- Submissions: April 27, 2025 ~~April 20, 2025~~
+- Notifications: May 7, 2025 ~~May 4, 2025~~
 - Camera-Ready: June 1, 2025
 - Workshop Date: June 22, 2025
 
