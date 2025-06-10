@@ -10,6 +10,33 @@ Using quantum computing and related technologies has become convenient and possi
 
 The primary objective of the Q-Data workshop is to explore how quantum computing and related technologies can enhance data processing, data management, data analysis systems, and techniques. It also focuses on hybrid approaches that integrate both quantum and classical computing methodologies to enhance such data systems and techniques. This workshop will spur new research efforts in this emerging field and pave the way for building next-generation data-intensive systems with quantum computing support.
 
+
+## Program Schedule
+
+| Time Slot | Program |
+| --- | --- |
+| 13:30-13:45 | Introduction |
+| 13:50-15:00 | Keynote "D-Wave Quantum Optimization Realized" by _Catherine Potts_
+| 15:00-15:30 | Coffee Break
+| 15:30-15:38 | Transpiling Quantum Circuits on Graph Databases. _Valter Uotila_
+| 15:38-15:46 | Cost-Based Query Optimization for Quantum Computation. _Immanuel Trummer_
+| 15:46-15:55 | QC meet CQ: Quantum Conjunctive Queries. _Floris Geerts and Rihan Hai_
+| 15:55-16:10 | Leveraging Quantum Computing for Optimal Data Allocation in Distributed Systems. _Immanuel Trummer_
+| 16:10-16:25 | Hybrid Quantum-Classical Optimization for Bushy Join Trees. _Hanwen Liu, Abhishek Kumar, Federico Spedalieri, and Ibrahim Sabek_
+| 16:25-16:40 | Quantum Modeling of Spatial Contiguity Constraints. _Yunhan Chang, Amr Magdy, and Federico Spedalieri_
+| 16:40-16:55 | Quantum-Enhanced Transaction Scheduling with Reduced Complexity via Solving QUBO Iteratively using a Locking Mechanism. _Nitin Nayak, Alexandru Prisacaru, Umut Çalıkyılmaz, Jinghua Groppe, and Sven Groppe_
+| 16:55-17:00 | Conclusions 
+
+## Keynote “D-Wave Quantum Optimization Realized”
+
+### Abstract
+
+Quantum computing promises to accelerate computational power in a variety of application spaces. D-Wave Quantum Inc. has targeted optimization problems with its quantum annealing hardware, hybrid quantum-classical software, and services. In this talk, we will explore the different use cases tackled by D-Wave’s technology, including areas of scheduling, allocation, and querying. An introduction to quantum computing will be provided, as well as an example of how research using quantum optimization has expanded as the technology has improved over the past 10 years.
+
+### Speaker
+
+Dr. Catherine Potts is a technical advisor at D-Wave Quantum Inc., assisting clients in building quantum optimization applications for commercial and research use. She has a PhD in applied mathematics from Montana State University, focused on adapting machine learning algorithms to scientific imaging. Since 2020, she’s been focused on building quantum computing applications for different types of quantum hardware, including D-Wave’s quantum annealing and hybrid technology.  
+
 ## Topics of Interest
 
 Topics of interest for the workshop include (but are not limited to):
@@ -72,20 +99,6 @@ Accepted papers and abstracts will be included in the proceedings and receive pr
 - [Stuart Hadfield](https://www.cs.columbia.edu/~stuartah/) (Quantum AI Lab at NASA Ames Research Center, USA)
 - [Valter Uotila](https://valteruo.github.io/) (University of Helsinki, Finland)
   
-## Program Schedule
-
-TBD
-
-## Keynote “D-Wave Quantum Optimization Realized”
-
-### Abstract
-
-Quantum computing promises to accelerate computational power in a variety of application spaces. D-Wave Quantum Inc. has targeted optimization problems with its quantum annealing hardware, hybrid quantum-classical software, and services. In this talk, we will explore the different use cases tackled by D-Wave’s technology, including areas of scheduling, allocation, and querying. An introduction to quantum computing will be provided, as well as an example of how research using quantum optimization has expanded as the technology has improved over the past 10 years.
-
-### Speaker
-
-Dr. Catherine Potts is a technical advisor at D-Wave Quantum Inc., assisting clients in building quantum optimization applications for commercial and research use. She has a PhD in applied mathematics from Montana State University, focused on adapting machine learning algorithms to scientific imaging. Since 2020, she’s been focused on building quantum computing applications for different types of quantum hardware, including D-Wave’s quantum annealing and hybrid technology.  
-
 
 ## Prior Instances
 - [2024](https://itrummer.github.io/qdata/qdata24.html)
