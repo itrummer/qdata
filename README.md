@@ -13,7 +13,9 @@ The primary objective of the Q-Data workshop is to explore how quantum computing
 
 ## Program Schedule
 
-| Time Slot| Program (Sunday 22nd of June, Intercontinental Berlin, room Köpenick I/II/III) |
+The workshop will take place on Sunday, June 22, at the Intercontinental Hotel in Berlin, in Room Köpenick I/II/III.
+
+| Time Slot| Program |
 | ------------------ | --- |
 | 13:30-13:45 | Introduction |
 | 13:50-15:00 | Keynote "D-Wave Quantum Optimization Realized" by _Catherine Potts_
