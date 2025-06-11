@@ -13,7 +13,7 @@ The primary objective of the Q-Data workshop is to explore how quantum computing
 
 ## Program Schedule
 
-| Time Slot &nbsp;&nbsp;&nbsp;&nbsp; | Program |
+| Time Slot &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; | Program |
 | --- | --- |
 | 13:30-13:45 | Introduction |
 | 13:50-15:00 | Keynote "D-Wave Quantum Optimization Realized" by _Catherine Potts_
