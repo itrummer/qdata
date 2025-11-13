@@ -1,0 +1,417 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Q-Data 2026 Workshop</title>
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH"
+      crossorigin="anonymous"
+    />
+    <style>
+      body {
+        scroll-behavior: smooth;
+      }
+      .letter-spacing {
+        letter-spacing: 0.35em;
+      }
+      .hero-section {
+        position: relative;
+        min-height: 100vh;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        text-align: center;
+        color: #fff;
+        padding: 8rem 0 6rem;
+        overflow: hidden;
+      }
+      .hero-background {
+        position: absolute;
+        top: 0;
+        right: 0;
+        bottom: 0;
+        left: 0;
+        z-index: 0;
+      }
+      .hero-background::after {
+        content: "";
+        position: absolute;
+        inset: 0;
+        background: linear-gradient(
+          180deg,
+          rgba(3, 22, 51, 0.65) 0%,
+          rgba(3, 22, 51, 0.35) 50%,
+          rgba(3, 22, 51, 0.75) 100%
+        );
+        pointer-events: none;
+      }
+      .hero-content {
+        position: relative;
+        z-index: 1;
+        max-width: 760px;
+      }
+      .hero-section .btn-outline-light:hover {
+        color: #0d6efd;
+        background-color: #fff;
+      }
+      section {
+        padding: 4rem 0;
+      }
+      .section-heading {
+        margin-bottom: 1.5rem;
+      }
+      .tbd-card {
+        border: 2px dashed #6c757d;
+        background-color: rgba(248, 249, 250, 0.5);
+      }
+      footer {
+        background-color: #031633;
+        color: #adb5bd;
+        padding: 2rem 0;
+      }
+    </style>
+  </head>
+  <body data-bs-spy="scroll" data-bs-target="#navbar" data-bs-offset="80" tabindex="0">
+    <nav id="navbar" class="navbar navbar-expand-lg navbar-dark bg-dark fixed-top shadow-sm">
+      <div class="container">
+        <a class="navbar-brand fw-semibold" href="#top">Q-Data 2026</a>
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-bs-toggle="collapse"
+          data-bs-target="#navbarNav"
+          aria-controls="navbarNav"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNav">
+          <ul class="navbar-nav ms-auto">
+            <li class="nav-item">
+              <a class="nav-link" href="#motivation">Motivation</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#schedule">Schedule</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#keynote">Keynote</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#topics">Topics</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#dates">Important Dates</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#submission">Submission</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#organization">Organization</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#prior">Prior Instances</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+
+    <main id="top">
+      <section class="hero-section text-center">
+        <div class="hero-background" id="hero-background" aria-hidden="true"></div>
+        <div class="container hero-content">
+          <p class="text-uppercase fs-6 fw-semibold text-primary-emphasis letter-spacing">
+            Collocated with SIGMOD 2026
+          </p>
+          <h1 class="display-3 fw-bold mb-4">Q-Data 2026</h1>
+          <p class="lead mb-4">
+            The third workshop on Quantum Computing and Quantum-Inspired Technology for Data-Intensive Systems and
+            Applications.
+          </p>
+          <div class="d-flex flex-column flex-sm-row gap-3 justify-content-center">
+            <a class="btn btn-outline-light btn-lg px-5" href="#motivation">Learn More</a>
+            <a class="btn btn-primary btn-lg px-5" href="#submission">Submit a Paper</a>
+          </div>
+        </div>
+      </section>
+
+      <section id="motivation">
+        <div class="container">
+          <div class="row justify-content-center">
+            <div class="col-lg-9">
+              <h2 class="section-heading">Motivation</h2>
+              <p>
+                Whereas quantum computing started out as a purely theoretical concept, the last few years
+                have seen a "Cambrian explosion" of first-generation commercial quantum hardware culminating
+                from decades of foundational research. Players, including the likes of Google, IBM, and Intel,
+                as well as startup companies like IQM, D-Wave, IonQ, and Rigetti, are now producing hardware
+                devices that implement quantum computing using various technologies. At the same time, the
+                recent advances in quantum computing have inspired a new generation of classical hardware
+                accelerators, offered commercially by providers such as Fujitsu, Toshiba, and 1Qubit, that
+                mirror the interfaces and take inspiration from internal processes of quantum computers. These
+                accelerators, including digital annealers, as well as GPU- and FPGA-based simulators of quantum
+                computation, obtain approximate solutions for extremely large, combinatorial optimization
+                problems quickly.
+              </p>
+              <p>
+                Using quantum computing and related technologies has become convenient and possible with
+                standard IT interfaces. Several software frameworks have recently appeared that make solving a
+                diverse range of problems using quantum computers easier. At the same time, multiple cloud
+                providers nowadays offer quantum computing as a service, making the technology accessible to
+                broad shares of the population. Taken together, these developments have recently spawned a
+                flurry of research in various communities, ranging from operations research to machine
+                learning, and aimed at analyzing the transformative potential of quantum computing for specific
+                use cases.
+              </p>
+              <p>
+                The primary objective of the Q-Data workshop is to explore how quantum computing and related
+                technologies can enhance data processing, data management, data analysis systems, and
+                techniques. It also focuses on hybrid approaches that integrate both quantum and classical
+                computing methodologies to enhance such data systems and techniques. This workshop will spur
+                new research efforts in this emerging field and pave the way for building next-generation
+                data-intensive systems with quantum computing support.
+              </p>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section id="schedule" class="bg-light">
+        <div class="container">
+          <div class="row justify-content-center">
+            <div class="col-lg-8">
+              <h2 class="section-heading">Program Schedule</h2>
+              <div class="card tbd-card">
+                <div class="card-body">
+                  <h5 class="card-title">Details Coming Soon</h5>
+                  <p class="card-text mb-0">
+                    The program schedule for Q-Data 2026 will be announced soon. Stay tuned for updates on the
+                    full agenda, including talks, panels, and community discussions.
+                  </p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section id="keynote">
+        <div class="container">
+          <div class="row justify-content-center">
+            <div class="col-lg-8">
+              <h2 class="section-heading">Keynote</h2>
+              <div class="card tbd-card">
+                <div class="card-body">
+                  <h5 class="card-title">To Be Announced</h5>
+                  <p class="card-text mb-0">
+                    We are finalizing the keynote speaker for Q-Data 2026. Check back soon for the announcement
+                    of the keynote topic and speaker details.
+                  </p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section id="topics" class="bg-light">
+        <div class="container">
+          <div class="row justify-content-center">
+            <div class="col-lg-9">
+              <h2 class="section-heading">Topics of Interest</h2>
+              <ul class="list-group list-group-flush">
+                <li class="list-group-item">
+                  Enhancing database system components (e.g., query optimizer, query scheduler, transaction
+                  scheduler, authentication, and integrity manager) with quantum computing and quantum-inspired
+                  accelerators
+                </li>
+                <li class="list-group-item">
+                  Data processing systems that integrate quantum-based and quantum-inspired accelerators
+                </li>
+                <li class="list-group-item">
+                  Data processing systems that integrate both quantum and classical computing approaches
+                </li>
+                <li class="list-group-item">
+                  Quantum machine learning for autonomous database management, database tuning, workload
+                  management, and learned indexes
+                </li>
+                <li class="list-group-item">
+                  Approaches for data exploration, discovery, and integration based on quantum computing and
+                  quantum-inspired hardware accelerators
+                </li>
+                <li class="list-group-item">
+                  Formal analysis and experimental evaluations assessing the potential of quantum computing for
+                  specific use cases in data processing and data management
+                </li>
+                <li class="list-group-item">
+                  Vision papers describing novel database system designs and novel use cases in data processing
+                  and management enabled by quantum computing
+                </li>
+                <li class="list-group-item">
+                  Quantum computing libraries and programming interfaces for database systems
+                </li>
+                <li class="list-group-item">
+                  Quantum computing enhanced data exploration, discovery, and integration
+                </li>
+                <li class="list-group-item">
+                  Domain-specific approaches exploiting quantum computers and quantum-inspired accelerators for
+                  data analysis (e.g., in finance or health care)
+                </li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section id="dates">
+        <div class="container">
+          <div class="row justify-content-center">
+            <div class="col-lg-8">
+              <h2 class="section-heading">Important Dates</h2>
+              <p>All deadlines are 11:59 PM Pacific Time:</p>
+              <ul class="list-unstyled fs-5">
+                <li>
+                  <strong>Submissions:</strong> April 20, 2026
+                </li>
+                <li>
+                  <strong>Notifications:</strong> May 7, 2026
+                </li>
+                <li><strong>Camera-Ready:</strong> May 14, 2026</li>
+                <li><strong>Workshop Date:</strong> May 31, 2026</li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section id="submission" class="bg-light">
+        <div class="container">
+          <div class="row justify-content-center">
+            <div class="col-lg-9">
+              <h2 class="section-heading">Submission Instructions</h2>
+              <p>
+                Submissions must be formatted according to the
+                <a href="https://www.acm.org/publications/proceedings-template" target="_blank" rel="noreferrer">
+                  ACM Primary Article Template</a>
+                (for Latex users, use the "sigconf" template) and submitted using EasyChair
+                <a href="https://easychair.org/conferences/?conf=qdata2026" target="_blank" rel="noreferrer">
+                  here</a>.
+                Authors are responsible for entering all conflicts of interest according to the
+                <a href="https://www.acm.org/publications/policies/conflict-of-interest" target="_blank" rel="noreferrer">
+                  Conflict of Interest Policy for ACM Publications</a>
+                before the submission deadline. We will impose a <strong>triple-blind</strong> submission and review policy.
+                In addition to the traditional double-blind submission that hides the authors’ and referees’ names from each
+                other, the triple-blind reviewing goes further and hides the referee names among referees during paper
+                discussions before their acceptance decisions.
+              </p>
+              <p>We accept three kinds of papers:</p>
+              <ul>
+                <li>Full papers with a length of up to 12 pages (excluding references)</li>
+                <li>Short papers with a length of up to 6 pages (excluding references)</li>
+                <li>Abstracts with a length of one single page (including references)</li>
+              </ul>
+              <p>For long and short papers, we consider the following categories:</p>
+              <ul>
+                <li>
+                  <strong>Algorithms:</strong> The primary contribution lies in algorithms that allow solving problems that
+                  are relevant to the database community on quantum computers or quantum-inspired accelerators. Long papers
+                  are expected to provide significant experimental or formal analysis results evaluating the proposed algorithm.
+                </li>
+                <li>
+                  <strong>Systems:</strong> The primary contribution lies in proposing new architectures or frameworks that
+                  use quantum computing or quantum-inspired accelerators to address problems in data processing and management.
+                  Long papers are expected to evaluate the implementation of the proposed system thoroughly.
+                </li>
+                <li>
+                  <strong>Experiments:</strong> The primary contribution lies in experimental analysis, quantifying properties
+                  of existing or novel algorithms that are at least partially executed on quantum computers or quantum-inspired
+                  accelerators (or use corresponding simulators). Long papers are expected to provide a more detailed experimental
+                  analysis.
+                </li>
+              </ul>
+              <p>
+                For abstracts, each abstract submission is expected to have a single author and should describe ideas and projects
+                at very early stages.
+              </p>
+              <p>
+                Accepted papers and abstracts will be included in the proceedings and receive presentation slots at the workshop
+                (5 minutes for abstracts, 15 minutes for short papers, and 25 minutes for long papers).
+              </p>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section id="organization">
+        <div class="container">
+          <div class="row justify-content-center">
+            <div class="col-lg-8">
+              <h2 class="section-heading">Organization</h2>
+              <h3 class="h4 mt-4">Workshop Chairs</h3>
+              <ul class="list-unstyled">
+                <li><a href="http://viterbi-web.usc.edu/~sabek" target="_blank" rel="noreferrer">Ibrahim Sabek</a> (University of Southern California, USA)</li>
+                <li><a href="https://itrummer.github.io/" target="_blank" rel="noreferrer">Immanuel Trummer</a> (Cornell University, USA)</li>
+                <li><a href="https://rihanhai.com/" target="_blank" rel="noreferrer">Rihan Hai</a> (TU Delft, Netherlands)</li>
+              </ul>
+              <h3 class="h4 mt-4">Steering Committee</h3>
+              <ul class="list-unstyled">
+                <li><a href="https://www.cs.helsinki.fi/u/jilu/" target="_blank" rel="noreferrer">Jiaheng Lu</a> (University of Helsinki, Finland)</li>
+                <li><a href="https://cs.ou.edu/~database/" target="_blank" rel="noreferrer">Le Gruenwald</a> (University of Oklahoma, USA)</li>
+                <li><a href="http://www.ifis.uni-luebeck.de/~groppe" target="_blank" rel="noreferrer">Sven Groppe</a> (University of Lübeck, Germany)</li>
+                <li><a href="https://lfdr.de/" target="_blank" rel="noreferrer">Wolfgang Mauerer</a> (Technical University of Applied Sciences Regensburg, Germany)</li>
+              </ul>
+              <h3 class="h4 mt-4">Program Committee</h3>
+              TBD
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section id="prior" class="bg-light">
+        <div class="container">
+          <div class="row justify-content-center">
+            <div class="col-lg-6">
+              <h2 class="section-heading">Prior Instances</h2>
+              <ul class="list-unstyled">
+                <li><a href="https://itrummer.github.io/qdata/qdata25.html" target="_blank" rel="noreferrer">2025</a></li>
+                <li><a href="https://itrummer.github.io/qdata/qdata24.html" target="_blank" rel="noreferrer">2024</a></li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <footer>
+      <div class="container text-center">
+        <p class="mb-1">Q-Data 2026 Workshop</p>
+        <p class="mb-0">Collocated with SIGMOD 2026</p>
+      </div>
+    </footer>
+
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
+      crossorigin="anonymous"
+    ></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/three.js/r121/three.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/vanta@latest/dist/vanta.waves.min.js"></script>
+    <script>
+    VANTA.WAVES({
+      el: "#hero-background",
+      mouseControls: true,
+      touchControls: true,
+      gyroControls: false,
+      minHeight: 200.00,
+      minWidth: 200.00,
+      scale: 1.00,
+      scaleMobile: 1.00
+    })
+    </script>
+  </body>
+</html>
+
