@@ -76,6 +76,47 @@
         color: #adb5bd;
         padding: 2rem 0;
       }
+      #schedule .schedule-table {
+        --schedule-accent: #031633;
+      }
+      #schedule .schedule-session__header td {
+        background: rgba(3, 22, 51, 0.08);
+        border-top: 2px solid var(--schedule-accent);
+        font-weight: 600;
+      }
+      #schedule .schedule-session .schedule-item td:first-child {
+        color: var(--bs-secondary-color);
+        font-size: 0.875rem;
+      }
+      #schedule .schedule-session .schedule-item:nth-child(even) td {
+        background-color: rgba(0, 0, 0, 0.03);
+      }
+      #schedule .schedule-item__type {
+        margin-right: 0.35rem;
+        vertical-align: 0.12em;
+      }
+      #schedule .schedule-item__title {
+        display: inline;
+        font-weight: 500;
+      }
+      #schedule .schedule-item__speakers {
+        display: block;
+        margin-top: 0.2rem;
+        font-size: 0.95rem;
+        color: var(--bs-secondary-color);
+      }
+      #schedule .schedule-break__cell {
+        text-align: center;
+        background: rgba(108, 117, 125, 0.12);
+        color: var(--bs-secondary-color);
+        padding: 0.75rem 1rem;
+      }
+      #schedule .schedule-break__time::after {
+        content: " · ";
+      }
+      #schedule .schedule-break__label {
+        font-style: italic;
+      }
     </style>
   </head>
   <body data-bs-spy="scroll" data-bs-target="#navbar" data-bs-offset="80" tabindex="0">
@@ -193,136 +234,189 @@
                 Workshop day: Sunday, May 31, 2026. All times are local to the SIGMOD venue.
               </p>
               <div class="table-responsive">
-                <table class="table table-striped table-bordered align-middle mb-0">
+                <table class="table schedule-table table-bordered align-middle mb-0">
                   <thead class="table-dark">
                     <tr>
                       <th scope="col" class="text-nowrap" style="width: 11rem">Time</th>
                       <th scope="col">Program</th>
                     </tr>
                   </thead>
-                  <tbody>
-                    <tr>
-                      <td class="text-nowrap">9:00 – 9:05 AM</td>
-                      <td>Intro</td>
+                  <tbody class="schedule-session" aria-label="Session 1">
+                    <tr class="schedule-session__header">
+                      <td class="text-nowrap">8:30 – 10:30 AM</td>
+                      <td>Session 1</td>
                     </tr>
-                    <tr>
-                      <td class="text-nowrap">9:05 – 10:05 AM</td>
-                      <td>
-                        Keynote 1: Quantum Computing at Fujitsu: From Hardware to Enterprise Applications<br />
-                        <em>Krishnakumar Sabapathy</em>
+                    <tr class="schedule-item schedule-item--keynote">
+                      <td class="schedule-item__time text-nowrap">8:30 – 9:30 AM</td>
+                      <td class="schedule-item__body">
+                        <span class="badge rounded-pill text-bg-primary schedule-item__type">Keynote</span>
+                        <span class="schedule-item__title"
+                          >Quantum Computing at Fujitsu: From Hardware to Enterprise Applications</span
+                        >
+                        <span class="schedule-item__speakers">Krishnakumar Sabapathy</span>
                       </td>
                     </tr>
-                    <tr>
-                      <td class="text-nowrap">10:05 – 10:30 AM</td>
-                      <td>Coffee Break</td>
-                    </tr>
-                    <tr class="table-secondary">
-                      <td class="text-nowrap">10:30 AM – Noon</td>
-                      <td><strong>Paper Track 1</strong></td>
-                    </tr>
-                    <tr>
-                      <td class="text-nowrap">10:30 – 10:50 AM</td>
-                      <td>
-                        Leveraging Quantum Annealing for Materialized View Selection.<br />
-                        <em>Immanuel Trummer</em>
+                    <tr class="schedule-item">
+                      <td class="schedule-item__time text-nowrap">9:30 – 9:50 AM</td>
+                      <td class="schedule-item__body">
+                        <span class="schedule-item__title"
+                          >Quantum Index Advisors: Beyond Configuration Selection?</span
+                        >
+                        <span class="schedule-item__speakers">Manish Kesarwani and Jayant Haritsa</span>
                       </td>
                     </tr>
-                    <tr>
-                      <td class="text-nowrap">10:50 – 11:00 AM</td>
-                      <td>
-                        Quantum-Optimized Spatial Permutations: Minimizing Submatrix Rank for Block-Low-Rank
-                        Space-Filling Curves.<br />
-                        <em>Amr Magdy, Yunhan Chang, and Sameh Abdulah</em>
+                    <tr class="schedule-item">
+                      <td class="schedule-item__time text-nowrap">9:50 – 10:20 AM</td>
+                      <td class="schedule-item__body">
+                        <span class="schedule-item__title"
+                          >QuSim-Join: Provably Optimal Quadratic Speedup in Set Similarity Joins via Quantum Amplitude
+                          Estimation.</span
+                        >
+                        <span class="schedule-item__speakers">Prateek P. Kulkarni and Aakarsh Alam</span>
                       </td>
                     </tr>
-                    <tr>
-                      <td class="text-nowrap">11:00 – 11:20 AM</td>
-                      <td>
-                        Quantum Index Advisors: Beyond Configuration Selection?<br />
-                        <em>Manish Kesarwani and Jayant Haritsa</em>
+                    <tr class="schedule-item">
+                      <td class="schedule-item__time text-nowrap">10:20 – 10:30 AM</td>
+                      <td class="schedule-item__body">
+                        <span class="schedule-item__title"
+                          >Scalable Hybrid Quantum-Classical Optimization for the Traveling Salesman Problem.</span
+                        >
+                        <span class="schedule-item__speakers"
+                          >Ziyue Wang, Zhiwei Ye, Gongsheng Yuan, Mengying Zhu, Jiaye Li, Guanjie Cheng, and Ling
+                          Qian</span
+                        >
                       </td>
                     </tr>
+                  </tbody>
+                  <tbody class="schedule-break" aria-label="Coffee Break">
                     <tr>
-                      <td class="text-nowrap">11:20 – 11:50 AM</td>
-                      <td>
-                        QuSim-Join: Provably Optimal Quadratic Speedup in Set Similarity Joins via Quantum Amplitude
-                        Estimation.<br />
-                        <em>Prateek P. Kulkarni and Aakarsh Alam</em>
+                      <td colspan="2" class="schedule-break__cell">
+                        <span class="schedule-break__time">10:30 – 11:00 AM</span>
+                        <span class="schedule-break__label">Coffee Break</span>
                       </td>
                     </tr>
-                    <tr>
-                      <td class="text-nowrap">11:50 AM – Noon</td>
-                      <td>
-                        Scalable Hybrid Quantum-Classical Optimization for the Traveling Salesman Problem.<br />
-                        <em>Ziyue Wang, Zhiwei Ye, Gongsheng Yuan, Mengying Zhu, Jiaye Li, Guanjie Cheng, and Ling Qian</em>
+                  </tbody>
+                  <tbody class="schedule-session" aria-label="Session 2">
+                    <tr class="schedule-session__header">
+                      <td class="text-nowrap">11:00 AM – 12:30 PM</td>
+                      <td>Session 2</td>
+                    </tr>
+                    <tr class="schedule-item schedule-item--keynote">
+                      <td class="schedule-item__time text-nowrap">11:00 AM – Noon</td>
+                      <td class="schedule-item__body">
+                        <span class="badge rounded-pill text-bg-primary schedule-item__type">Keynote</span>
+                        <span class="schedule-item__title"
+                          >Quantum Computing for Data Management – Which Problem is Worthwhile Solving?</span
+                        >
+                        <span class="schedule-item__speakers">Kurt Stockinger</span>
                       </td>
                     </tr>
-                    <tr>
-                      <td class="text-nowrap">Noon – 1:00 PM</td>
-                      <td>Lunch</td>
-                    </tr>
-                    <tr>
-                      <td class="text-nowrap">1:00 – 2:00 PM</td>
-                      <td>
-                        Keynote 2: Quantum Computing for Data Management – Which Problem is Worthwhile Solving?<br />
-                        <em>Kurt Stockinger</em>
+                    <tr class="schedule-item">
+                      <td class="schedule-item__time text-nowrap">Noon – 12:20 PM</td>
+                      <td class="schedule-item__body">
+                        <span class="schedule-item__title"
+                          >Leveraging Quantum Annealing for Materialized View Selection.</span
+                        >
+                        <span class="schedule-item__speakers">Immanuel Trummer</span>
                       </td>
                     </tr>
-                    <tr>
-                      <td class="text-nowrap">2:00 – 2:30 PM</td>
-                      <td>Coffee Break</td>
-                    </tr>
-                    <tr class="table-secondary">
-                      <td class="text-nowrap">2:30 – 4:10 PM</td>
-                      <td><strong>Paper Track 2</strong></td>
-                    </tr>
-                    <tr>
-                      <td class="text-nowrap">2:30 – 2:40 PM</td>
-                      <td>
-                        Quantum Annealing for Multiobjective Query Optimization.<br />
-                        <em>Immanuel Trummer</em>
+                    <tr class="schedule-item">
+                      <td class="schedule-item__time text-nowrap">12:20 – 12:30 PM</td>
+                      <td class="schedule-item__body">
+                        <span class="schedule-item__title"
+                          >Quantum-Optimized Spatial Permutations: Minimizing Submatrix Rank for Block-Low-Rank
+                          Space-Filling Curves.</span
+                        >
+                        <span class="schedule-item__speakers">Amr Magdy, Yunhan Chang, and Sameh Abdulah</span>
                       </td>
                     </tr>
+                  </tbody>
+                  <tbody class="schedule-break" aria-label="Lunch">
                     <tr>
-                      <td class="text-nowrap">2:40 – 3:00 PM</td>
-                      <td>
-                        Quantum Hypergraph Partitioning.<br />
-                        <em>Yiran Li, Batuhan Yilmaz, Michael Silver, Zachary Vernec, and Hans-Arno Jacobsen</em>
+                      <td colspan="2" class="schedule-break__cell">
+                        <span class="schedule-break__time">12:30 – 1:30 PM</span>
+                        <span class="schedule-break__label">Lunch</span>
                       </td>
                     </tr>
-                    <tr>
-                      <td class="text-nowrap">3:00 – 3:30 PM</td>
-                      <td>
-                        A Toolbox to Understand the Physics of Quantum Data Management.<br />
-                        <em>Wolfgang Mauerer and Manuel Schönberger</em>
+                  </tbody>
+                  <tbody class="schedule-session" aria-label="Session 3">
+                    <tr class="schedule-session__header">
+                      <td class="text-nowrap">1:30 – 3:10 PM</td>
+                      <td>Session 3</td>
+                    </tr>
+                    <tr class="schedule-item">
+                      <td class="schedule-item__time text-nowrap">1:30 – 1:40 PM</td>
+                      <td class="schedule-item__body">
+                        <span class="schedule-item__title"
+                          >Quantum Annealing for Multiobjective Query Optimization.</span
+                        >
+                        <span class="schedule-item__speakers">Immanuel Trummer</span>
                       </td>
                     </tr>
-                    <tr>
-                      <td class="text-nowrap">3:30 – 3:40 PM</td>
-                      <td>
-                        Connecting Probabilistic Databases to Quantum Computing and Tensor Networks via Graphical
-                        Models.<br />
-                        <em>Valter Uotila</em>
+                    <tr class="schedule-item">
+                      <td class="schedule-item__time text-nowrap">1:40 – 2:00 PM</td>
+                      <td class="schedule-item__body">
+                        <span class="schedule-item__title">Quantum Hypergraph Partitioning.</span>
+                        <span class="schedule-item__speakers"
+                          >Yiran Li, Batuhan Yilmaz, Michael Silver, Zachary Vernec, and Hans-Arno Jacobsen</span
+                        >
                       </td>
                     </tr>
-                    <tr>
-                      <td class="text-nowrap">3:40 – 4:10 PM</td>
-                      <td>
-                        Opportunities and Challenges for Data Quality in the Era of Quantum Computing.<br />
-                        <em>Sven Groppe, Valter Uotila, and Jinghua Groppe</em>
+                    <tr class="schedule-item">
+                      <td class="schedule-item__time text-nowrap">2:00 – 2:30 PM</td>
+                      <td class="schedule-item__body">
+                        <span class="schedule-item__title"
+                          >A Toolbox to Understand the Physics of Quantum Data Management.</span
+                        >
+                        <span class="schedule-item__speakers">Wolfgang Mauerer and Manuel Schönberger</span>
                       </td>
                     </tr>
-                    <tr>
-                      <td class="text-nowrap">4:10 – 4:30 PM</td>
-                      <td>Coffee Break</td>
+                    <tr class="schedule-item">
+                      <td class="schedule-item__time text-nowrap">2:30 – 2:40 PM</td>
+                      <td class="schedule-item__body">
+                        <span class="schedule-item__title"
+                          >Connecting Probabilistic Databases to Quantum Computing and Tensor Networks via Graphical
+                          Models.</span
+                        >
+                        <span class="schedule-item__speakers">Valter Uotila</span>
+                      </td>
                     </tr>
-                    <tr>
-                      <td class="text-nowrap">4:30 – 5:30 PM</td>
-                      <td>Keynote 3<br /><em>Arun K. Pati</em></td>
+                    <tr class="schedule-item">
+                      <td class="schedule-item__time text-nowrap">2:40 – 3:10 PM</td>
+                      <td class="schedule-item__body">
+                        <span class="schedule-item__title"
+                          >Opportunities and Challenges for Data Quality in the Era of Quantum Computing.</span
+                        >
+                        <span class="schedule-item__speakers">Sven Groppe, Valter Uotila, and Jinghua Groppe</span>
+                      </td>
                     </tr>
+                  </tbody>
+                  <tbody class="schedule-break" aria-label="Coffee Break">
                     <tr>
-                      <td class="text-nowrap">5:30 – 6:00 PM</td>
-                      <td>Final Discussion &amp; Conclusion</td>
+                      <td colspan="2" class="schedule-break__cell">
+                        <span class="schedule-break__time">3:10 – 3:30 PM</span>
+                        <span class="schedule-break__label">Coffee Break</span>
+                      </td>
+                    </tr>
+                  </tbody>
+                  <tbody class="schedule-session" aria-label="Session 4">
+                    <tr class="schedule-session__header">
+                      <td class="text-nowrap">3:30 – 5:00 PM</td>
+                      <td>Session 4</td>
+                    </tr>
+                    <tr class="schedule-item schedule-item--keynote">
+                      <td class="schedule-item__time text-nowrap">3:30 – 4:30 PM</td>
+                      <td class="schedule-item__body">
+                        <span class="badge rounded-pill text-bg-primary schedule-item__type">Keynote</span>
+                        <span class="schedule-item__title">Keynote 3</span>
+                        <span class="schedule-item__speakers">Arun K. Pati</span>
+                      </td>
+                    </tr>
+                    <tr class="schedule-item">
+                      <td class="schedule-item__time text-nowrap">4:30 – 5:00 PM</td>
+                      <td class="schedule-item__body">
+                        <span class="schedule-item__title">Final Discussion &amp; Conclusion</span>
+                      </td>
                     </tr>
                   </tbody>
                 </table>
@@ -359,7 +453,7 @@
                           ><strong>Krishnakumar Sabapathy</strong></a
                         >, Head of Research in Quantum, Fujitsu, India
                       </p>
-                      <p class="small text-muted mb-0">Keynote 1 · 9:05 – 10:05 AM</p>
+                      <p class="small text-muted mb-0">Keynote 1 · 8:30 – 9:30 AM</p>
 
                       <h4 class="h5 mt-4">Abstract</h4>
                       <p class="mb-0">
@@ -404,7 +498,7 @@
                           ><strong>Kurt Stockinger</strong></a
                         >, Zurich University of Applied Sciences, Switzerland
                       </p>
-                      <p class="small text-muted mb-0">Keynote 2 · 1:00 – 2:00 PM</p>
+                      <p class="small text-muted mb-0">Keynote 2 · 11:00 AM – Noon</p>
 
                       <h4 class="h5 mt-4">Abstract</h4>
                       <p>
@@ -445,7 +539,7 @@
 
               <article id="keynote-pati" class="card tbd-card mb-4">
                 <div class="card-body">
-                  <h3 class="h5 card-title mb-1">Keynote 3 · 4:30 – 5:30 PM</h3>
+                  <h3 class="h5 card-title mb-1">Keynote 3 · 3:30 – 4:30 PM</h3>
                   <p class="text-muted mb-2"><em>Arun K. Pati</em></p>
                   <p class="card-text mb-0">Talk title and details coming soon.</p>
                 </div>
